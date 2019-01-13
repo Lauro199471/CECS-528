@@ -2,7 +2,8 @@
   <img width="150" height="146" src="https://user-images.githubusercontent.com/13907836/51081445-7d0d9300-16a4-11e9-8e4d-6ccad8359bf8.png">
 </p>
 
-# CECS 528 : Analysis of Algorithms
+# CECS 528 <br> Analysis of Algorithms
+<h1>Heading level 1</h1>	
 
 ## Course Description
 In this course we study some of the most important and exemplary algorithms from computer science. Moreover, we primarily focus on the three major algorithm families: greedy, dvide-and-conquer, and dynamic programming. We also explore approximation algorithms, linear programming, and the algorithmic technique of reducibility.
