@@ -13,3 +13,4 @@ Now consider that the two odd vertices share an edge together like so, <br><br>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/13907836/52169282-70e88480-26ea-11e9-8ad5-fb39469ad8f8.png">
 </p>
+<br>If the Path(<i>P</P>) were to start at either of the odd vertices and the second node to move to is the other odd vertice then the shared edged will make the odd veritces even. Since the remaing of the graph is <b>Even</b> indicates that there is an <b>Euler Circuit</b>. But! Our initial vertex was at vertex <b><i>a</i></b> and <i>G</i> got a circuit after the edge that was being shared by <b><i>a</i></b> and <b><i>b</i></b> is counted for already means we have a <i>P</p> only.
