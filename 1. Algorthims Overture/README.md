@@ -16,7 +16,7 @@ Now consider that the two odd vertices share an edge together like so, <br><br>
 <br>If the Path(<i>P</i>) were to start at either of the odd vertices and the second node to move to is the other odd vertice then the shared edged will make the odd veritces even. Since the remaing of the graph is <b>Even</b> indicates that there is an <b>Euler Circuit</b> by applying <b>Theorem 1</b>. But! Our initial vertex was at vertex <b><i>a</i></b> and <i>G</i> got a circuit after the edge that was being shared by <b><i>a</i></b> and <b><i>b</i></b> is counted for already means we have a <i>P</i> only.
 <br><br><br>
 
-2. Prove that in any graph the number of vertices having odd degree is an even amount of vertices.<br>
+### 2. Prove that in any graph the number of vertices having odd degree is an even amount of vertices.<br>
 <br>
 The sum of the degrees is <b>twice</b> the number of edges.(The Handshake Theorem)<br><br>
 <p align="center">
