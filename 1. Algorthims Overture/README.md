@@ -28,4 +28,4 @@ Here is an example of the Handshake Theorem.<br>
 </p>
 <br>
 
-Let <i>e</i> be an edge on the graph( <i> e &#8712;</i> E(G)). Then <i>e</i> has 2 ends with 2 vertices.(says <i>u</i> and <i>w</i>). When the sum of the degrees of <i>u</i> and <i>w</i> edge <i>e</i> gets counted twice.(one when we are counting the degrees of <i>u</i> and two for when we are counting the degrees of <i>w</i>)
+Let <i>e</i> be an edge on the graph( <i> e &#8712;</i> E(G)). Then <i>e</i> has 2 ends with 2 vertices(say <i>u</i> and <i>w</i>). When the sum of the degrees of <i>u</i> and <i>w</i>, edge <i>e</i> gets counted twice(one when we are counting the degrees of <i>u</i> and two for when we are counting the degrees of <i>w</i>).
