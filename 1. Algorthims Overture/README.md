@@ -32,3 +32,8 @@ Let <i>e</i> be an edge on the graph( <i> e &#8712;</i> E(G)). Then <i>e</i> has
 ex: Finding a graph with 2 vertices having 10 degrees and one vertex with one degree is IMPOSSIBLE<br>
 
 ### 3. Use the Pigeon-Hole Principle to prove that a simple graph with at least two vertices has at least two vertices having the same degree.
+<br>
+Since we are dealing with a simple graph(vertices do not repeat so no loops and no muliple edges to the same vertex) and its a connected finite graphwith <i>n</i> vertices. Then all vertices in <b>G</b> has a degree between 1 and <i>n</i>-1(the degree of a given vertex cannot be zero since <b>G</b> is connected)
+
+<br>
+define connected graph
