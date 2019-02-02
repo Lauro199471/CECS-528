@@ -17,4 +17,8 @@ Now consider that the two odd vertices share an edge together like so, <br><br>
 <br><br><br>
 
 2. Prove that in any graph the number of vertices having odd degree is an even amount of vertices.<br>
-
+<br>
+The sum of the degrees is <b>twice</b> the number of edges.<br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/13907836/52169492-3254c900-26ee-11e9-8342-ee0fa32769d9.PNG">
+</p>
