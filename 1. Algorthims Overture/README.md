@@ -22,7 +22,10 @@ The sum of the degrees is <b>twice</b> the number of edges.(The Handshake Theore
 <p align="center">
   <img src="https://user-images.githubusercontent.com/13907836/52169492-3254c900-26ee-11e9-8342-ee0fa32769d9.PNG">
 </p>
-Here is an example of the Handshake Theorem.
+Here is an example of the Handshake Theorem.<br>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/13907836/52169572-80b69780-26ef-11e9-91ba-93d0ff8aea26.png">
 </p>
+<br>
+
+Let <i>e</i> be an edge on the graph( <i>&#8712;</i>)
