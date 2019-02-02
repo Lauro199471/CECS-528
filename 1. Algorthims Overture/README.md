@@ -8,3 +8,8 @@ Let <i>G</i> be the graph we are observing. Since we have 2 odd degrees in the g
   <li><i>G<sup>i</sup></i>  = the even vertices of the graph( lets say n , where n > 0 (aka a postive amount of even vertices)</li>
   <li><i>G<sup>ii</sup></i> = the odd vertices of the graph ( in this case we have 2 odd vertices) </li>
 </ul>
+<br>
+Now consider that the two odd vertices share an edge together like so, <br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/13907836/52169282-70e88480-26ea-11e9-8ad5-fb39469ad8f8.png">
+</p>
