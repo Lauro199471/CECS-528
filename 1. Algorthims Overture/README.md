@@ -5,9 +5,6 @@
 <br>
 Let <i>G</i> be the graph we are observing. Since we have 2 odd degrees in the graph, the equation for <i>G</i> = <i>G<sup>i</sup></i>*<i>G<sup>ii</sup></i>.<br> Where <br>
 <ul>
-  <li><i>G<sup>i</sup></i> = </li>
-  <li><i>G<sup>i</sup></i> </li>
+  <li><i>G<sup>i</sup></i>  = the even vertices of the graph( lets say n , where n > 0 (aka a postive amount of even vertices)</li>
+  <li><i>G<sup>ii</sup></i> = the odd vertices of the graph ( in this case we have 2 odd vertices) </li>
 </ul>
-* 
-<br>
-* 
