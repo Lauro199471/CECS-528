@@ -38,3 +38,7 @@ Since we are dealing with a simple graph(vertices do not repeat so no loops and 
   <img src="https://user-images.githubusercontent.com/13907836/52174192-66a7a400-2745-11e9-8cd9-95358bbdf62f.png">
 </p>
 <br>
+
+### 4. Prove that if G is a connected graph for which each of its vertices has even degree, then G must have a cycle.
+
+A connected graph means that if given any two vertices <i>i</i> and <i>j</i> , there is a path from <b>P<sub>i</sub></b>
