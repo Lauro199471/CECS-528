@@ -47,7 +47,7 @@ A connected graph means that if given any two vertices(<i>i</i> and <i>j</i>), t
 
 Let G = (V, E) be a directed graph, and deg<sup>−</sup>(v) means edges leaving the vertex and deg<sup>+</sup>(v) means edges entering the vertex. Then a strongly-connected simple graph ( no loops , no cycles , no repeats on edges, every vertex has a path to and from any vertex) has an Euler Circuit if all vertex in the graph has the same amount deg<sup>−</sup>(v) and deg<sup>+</sup>(v).
 
-### 10. Prove that if G = (V, E) is connected, and a<sub>1</sub>, b<sub>1</sub>, . . . , a<sub>k</sub>, bk ∈ V are the odd-degree vertices of G, k ≥ 1, then the edges of G can be partitioned into k paths P<sub>1</sub>, . . . , P<sub>k</sub>, where P<sub>i</sub> is a path from one odd-degree vertex to another, and each odd-degree vertex serves as an endpoint to exactly one path.
+### 10. Prove that if G = (V, E) is connected, and a<sub>1</sub>, b<sub>1</sub>, . . . , a<sub>k</sub>, b<sub>k</sub> ∈ V are the odd-degree vertices of G, k ≥ 1, then the edges of G can be partitioned into k paths P<sub>1</sub>, . . . , P<sub>k</sub>, where P<sub>i</sub> is a path from one odd-degree vertex to another, and each odd-degree vertex serves as an endpoint to exactly one path.
 
 
 
