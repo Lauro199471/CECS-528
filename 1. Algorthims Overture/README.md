@@ -45,4 +45,4 @@ A connected graph means that if given any two vertices(<i>i</i> and <i>j</i>), t
 
 ### 5. State a theorem analogous to Theorem 1 that holds true for strongly connected directed graphs
 
-Let G = (V, E) be a directed graph, and deg<sup>−</sup>(v) means edges leaving the vertex and deg<sup>+</sup>(v) means edges entering the vertex.
+Let G = (V, E) be a directed graph, and deg<sup>−</sup>(v) means edges leaving the vertex and deg<sup>+</sup>(v) means edges entering the vertex. Then a strongly-connected simple graph ( no loops , no cycles , no repeats on edges, every vertex has a path to and from any vertex) has an Euler Circuit if all vertex in the graph has the same amount deg<sup>−</sup>(v) and deg<sup>+</sup>(v).
