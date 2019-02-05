@@ -20,7 +20,12 @@ nlog(n) &#8804; 1((n + 2nlog(n))) ; where C = 1 , n &#8805; n<sub>0</sub> , and 
 Now we must find an initial n (n<sub>0</sub>) to make this statement true. In this cause 1 is a good number becuase 1+(anthing , where anything is positive) is greater then 0<br><br>
 </p>
 
-
+Step 4: Choose a <i>n<sub>0</sub></i>, in this case I am choosing 1 because of eariler statement<br>
+<p align="center">
+0 &#8804; (1) + (1)log(1) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1<br><br>
+0 &#8804; 1 + 0 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1<br><br>
+0 &#8804; 1 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1<br>That statement is true is therefore f(n) = &#937;(g(n))<br><br>
+</p>
 
 
 <br>
