@@ -1,10 +1,10 @@
 # Excercises
 <br>
 
-### 1.  Provide the big-O relationship between  f(n) = nlogn and g(n) = (n + nlog(n<sup>2</sup>))
+### 2.  Provide the big-O relationship between  f(n) = nlogn and g(n) = (n + nlog(n<sup>2</sup>))
 <b>Step 1</b>: Write the definition<br>
 <p align="center">
-f(n) = &#937;(g(n))<br><br>
+f(n) = O(g(n))<br><br>
 nlog(n) &#8804; C((n + nlog(n<sup>2</sup>))) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0
 </p>
 
@@ -27,6 +27,9 @@ Now we must find an initial n (n<sub>0</sub>) to make this statement true. In th
 0 &#8804; 1 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1<br>That statement is true is therefore f(n) = &#937;(g(n))<br><br>
 </p>
 <b>Visual</b>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/13907836/52298656-50ae0500-2938-11e9-9b77-c1d3fb663b4e.png">
+</p>
 
 <br>
 Let <i>G</i> be the graph we are observing. Since we have 2 odd degrees in the graph, the equation for <i>G</i> = <i>G<sup>i</sup></i>*<i>G<sup>ii</sup></i>.<br> Where <br>
