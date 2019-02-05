@@ -5,6 +5,7 @@
 <p align="left"> Step 1 is to write the definition</p>
 <p align="center">
   f(n) = &#937;(g(n))<br>
+  nlog(n) &#8804; C(g(n)) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0
 </p>
 
 
