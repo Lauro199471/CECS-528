@@ -1,7 +1,13 @@
 # Excercises
 <br>
 
-### 1.Use the deﬁnition of big-Ω to prove that nlogn = &#937;(n + nlog(n<sup>2</sup>)). Provide appropriate C and k constants.
+### 1. Use the deﬁnition of big-&#937; to prove that nlogn = &#937;(n + nlog(n<sup>2</sup>)). Provide appropriate C and k constants.<br>
+
+<p align="center">
+  <p align="left"> Step 1 is too write the definition</p>
+  f(n) = &#937;(g(n))<br>
+</p>
+
 
 <br>
 Let <i>G</i> be the graph we are observing. Since we have 2 odd degrees in the graph, the equation for <i>G</i> = <i>G<sup>i</sup></i>*<i>G<sup>ii</sup></i>.<br> Where <br>
