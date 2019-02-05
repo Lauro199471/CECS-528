@@ -29,6 +29,7 @@ Now we must find an initial n (n<sub>0</sub>) to make this statement true. In th
 <b>Visual</b>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/13907836/52298656-50ae0500-2938-11e9-9b77-c1d3fb663b4e.png">
+  <img src="https://user-images.githubusercontent.com/13907836/52298712-7e934980-2938-11e9-8a71-4692dbd38e3f.png">
 </p>
 
 <br>
