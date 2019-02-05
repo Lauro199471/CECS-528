@@ -1,7 +1,7 @@
 # Excercises
 <br>
 
-### 1. Use the deﬁnition of big-&#937; to prove that nlogn = &#937;(n + nlog(n<sup>2</sup>)). Provide appropriate C and k constants.<br>
+### 1.  Provide the big-O relationship between  f(n) = nlogn and g(n) = (n + nlog(n<sup>2</sup>))
 <b>Step 1</b>: Write the definition<br>
 <p align="center">
 f(n) = &#937;(g(n))<br><br>
@@ -26,7 +26,7 @@ Now we must find an initial n (n<sub>0</sub>) to make this statement true. In th
 0 &#8804; 1 + 0 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1<br><br>
 0 &#8804; 1 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1<br>That statement is true is therefore f(n) = &#937;(g(n))<br><br>
 </p>
-
+<b>Visual</b>
 
 <br>
 Let <i>G</i> be the graph we are observing. Since we have 2 odd degrees in the graph, the equation for <i>G</i> = <i>G<sup>i</sup></i>*<i>G<sup>ii</sup></i>.<br> Where <br>
