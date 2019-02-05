@@ -2,11 +2,10 @@
 <br>
 
 ### 1. Use the deﬁnition of big-&#937; to prove that nlogn = &#937;(n + nlog(n<sup>2</sup>)). Provide appropriate C and k constants.<br>
-<p align="left"> Step 1 is to write the definition</p>
-<p align="center">
-  f(n) = &#937;(g(n))<br>
-  nlog(n) &#8804; C(g(n)) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0
-</p>
+Step 1 is to write the definition<br>
+&#9;
+f(n) = &#937;(g(n))<br>
+nlog(n) &#8804; C(g(n)) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0
 
 
 <br>
