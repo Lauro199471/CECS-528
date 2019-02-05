@@ -4,7 +4,7 @@
 ### 1. Use the deﬁnition of big-Ω to prove that nlogn = Ω(n + nlog(n<sup>2</sup>)). 
 <b>Step 1</b>: Write the definition<br>
 <p align="center">
-f(n) = O(g(n))<br><br>
+f(n) = Ω(g(n))<br><br>
 nlog(n) &#8805; C((n + nlog(n<sup>2</sup>))) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0
 </p>
 
@@ -16,9 +16,15 @@ nlog(n) &#8805; C((n + 2nlog(n))) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , 
 <b>Step 3</b>: Choose a <i>C</i>, in this case I am choosing 1 because its easier to work with<br>
 <p align="center">
 nlog(n) &#8805; 1((n + 2nlog(n))) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
-0 &#8804; n + nlog(n) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
+0 &#8804; n + nlog(n) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br>
 Now we must find an initial n (n<sub>0</sub>) to make this statement true. In this cause 1/2 is a good number becuase log<sub>2</sub>(1/2) = -1<br><br>
 </p>
+
+<b>Step 4</b>: Choose a <i>n<sub>0</sub></i>, in this case I am choosing 1/2 because of eariler statement<br>
+<p align="center">
+0 &#8805; (1/2) + (1/2)log(1/2) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1/2<br><br>
+0 &#8805; 1/2 - 1/2 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1/2<br><br>
+0 &#8804; 0 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1/2<br>That statement is true is therefore f(n) = &#937;(g(n))<br><br>
 
 ### 2. Provide the big-O relationship between  f(n) = nlogn and g(n) = (n + nlog(n<sup>2</sup>))
 <b>Step 1</b>: Write the definition<br>
@@ -43,7 +49,7 @@ Now we must find an initial n (n<sub>0</sub>) to make this statement true. In th
 <p align="center">
 0 &#8804; (1) + (1)log(1) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1<br><br>
 0 &#8804; 1 + 0 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1<br><br>
-0 &#8804; 1 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1<br>That statement is true is therefore f(n) = &#937;(g(n))<br><br>
+0 &#8804; 1 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1<br>That statement is true is therefore f(n) = O(g(n))<br><br>
 </p>
 <b>Visual</b>
 <p align="center">
