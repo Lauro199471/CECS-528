@@ -1,7 +1,13 @@
 # Excercises
 <br>
+### 1. Use the deﬁnition of big-Ω to prove that nlogn = Ω(n + nlog(n<sup>2</sup>)). 
+<b>Step 1</b>: Write the definition<br>
+<p align="center">
+f(n) = O(g(n))<br><br>
+nlog(n) &#8805; C((n + nlog(n<sup>2</sup>))) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0
+</p>
 
-### 2.  Provide the big-O relationship between  f(n) = nlogn and g(n) = (n + nlog(n<sup>2</sup>))
+### 2. Provide the big-O relationship between  f(n) = nlogn and g(n) = (n + nlog(n<sup>2</sup>))
 <b>Step 1</b>: Write the definition<br>
 <p align="center">
 f(n) = O(g(n))<br><br>
@@ -31,7 +37,7 @@ Now we must find an initial n (n<sub>0</sub>) to make this statement true. In th
   <img src="https://user-images.githubusercontent.com/13907836/52298656-50ae0500-2938-11e9-9b77-c1d3fb663b4e.png">
   <img src="https://user-images.githubusercontent.com/13907836/52298712-7e934980-2938-11e9-8a71-4692dbd38e3f.png">
   <img src="https://user-images.githubusercontent.com/13907836/52298790-a8e50700-2938-11e9-8d9d-14f214dda186.png">
-  <img src="https://user-images.githubusercontent.com/13907836/52298860-da5dd280-2938-11e9-81ba-082a142dac9f.png">
+  <img src="https://user-images.githubusercontent.com/13907836/52298941-1729c980-2939-11e9-9ffc-bd579185ec97.png">
 </p>
 
 <br>
