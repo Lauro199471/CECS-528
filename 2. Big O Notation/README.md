@@ -57,7 +57,7 @@ Now we must find an initial n (n<sub>0</sub>) to make this statement true. In th
 <p align="center">
 0 &#8804; (1) + (1)log(1) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1<br><br>
 0 &#8804; 1 + 0 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1<br><br>
-0 &#8804; 1 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1<br>That statement is true therefore f(n) = O(g(n))<br><br>
+0 &#8804; 1 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1<br>That statement is true therefore f(n) &#8804; O(g(n))<br><br>
 </p>
 <b>Visual</b>
 <p align="center">
