@@ -2,20 +2,22 @@
 <br>
 
 ### 1. Use the deﬁnition of big-&#937; to prove that nlogn = &#937;(n + nlog(n<sup>2</sup>)). Provide appropriate C and k constants.<br>
-Step 1 is to write the definition<br>
+Step 1: Write the definition<br>
 <p align="center">
 f(n) = &#937;(g(n))<br><br>
 nlog(n) &#8804; C((n + nlog(n<sup>2</sup>))) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0
 </p>
 
-Step 2 simplify the equation<br>
+Step 2: Simplify the equation<br>
 <p align="center">
 nlog(n) &#8804; C((n + 2nlog(n))) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
 </p>
 
-Step 3 choose a <i>C</i>, in this case I am choosing 1 because its easier to work with<br>
+Step 3: Choose a <i>C</i>, in this case I am choosing 1 because its easier to work with<br>
 <p align="center">
 nlog(n) &#8804; 1((n + 2nlog(n))) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
+0 &#8804; n + nlog(n) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
+Now we must find an initial n (n<sub>0</sub>) to make this statement true. In this cause 1 is a good number becuase 1+(anthing , where anything is positive) is greater then 0<br><br>
 </p>
 
 
