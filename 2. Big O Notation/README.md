@@ -3,11 +3,21 @@
 
 ### 1. Use the deﬁnition of big-&#937; to prove that nlogn = &#937;(n + nlog(n<sup>2</sup>)). Provide appropriate C and k constants.<br>
 Step 1 is to write the definition<br>
-&#9;
 <p align="center">
-f(n) = &#937;(g(n))<br>
-nlog(n) &#8804; C(g(n)) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0
+f(n) = &#937;(g(n))<br><br>
+nlog(n) &#8804; C((n + nlog(n<sup>2</sup>))) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0
 </p>
+
+Step 2 simplify the equation<br>
+<p align="center">
+nlog(n) &#8804; C((n + 2nlog(n))) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
+
+</p>
+
+
+
+
+
 
 <br>
 Let <i>G</i> be the graph we are observing. Since we have 2 odd degrees in the graph, the equation for <i>G</i> = <i>G<sup>i</sup></i>*<i>G<sup>ii</sup></i>.<br> Where <br>
