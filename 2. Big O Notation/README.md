@@ -15,7 +15,7 @@ nlog(n) &#8804; C((n + 2nlog(n))) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , 
 
 Step 3 choose a <i>C</i>, in this case I am choosing 1 because its easier to work with<br>
 <p align="center">
-nlog(n) &#8804; 1((n + 2nlog(n))) ; where C &#62; 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
+nlog(n) &#8804; 1((n + 2nlog(n))) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
 </p>
 
 
