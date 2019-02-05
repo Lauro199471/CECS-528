@@ -24,7 +24,7 @@ Now we must find an initial n (n<sub>0</sub>) to make this statement true. In th
 <p align="center">
 0 &#8805; (1/2) + (1/2)log(1/2) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1/2<br><br>
 0 &#8805; 1/2 - 1/2 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1/2<br><br>
-0 &#8804; 0 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1/2<br>That statement is true because we have proven we f(n) = &#937;(g(n))<br><br>
+0 &#8805; 0 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1/2<br>That statement is true because we have proven we f(n) = &#937;(g(n))<br><br>
 
 <b>Visual</b>
 <p align="center">
