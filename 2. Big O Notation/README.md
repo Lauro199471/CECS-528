@@ -1,10 +1,23 @@
 # Excercises
 <br>
+
 ### 1. Use the deﬁnition of big-Ω to prove that nlogn = Ω(n + nlog(n<sup>2</sup>)). 
 <b>Step 1</b>: Write the definition<br>
 <p align="center">
 f(n) = O(g(n))<br><br>
 nlog(n) &#8805; C((n + nlog(n<sup>2</sup>))) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0
+</p>
+
+<b>Step 2</b>: Simplify the equation<br>
+<p align="center">
+nlog(n) &#8805; C((n + 2nlog(n))) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
+</p>
+
+<b>Step 3</b>: Choose a <i>C</i>, in this case I am choosing 1 because its easier to work with<br>
+<p align="center">
+nlog(n) &#8805; 1((n + 2nlog(n))) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
+0 &#8804; n + nlog(n) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
+Now we must find an initial n (n<sub>0</sub>) to make this statement true. In this cause 1/2 is a good number becuase log<sub>2</sub>(1/2) = -1<br><br>
 </p>
 
 ### 2. Provide the big-O relationship between  f(n) = nlogn and g(n) = (n + nlog(n<sup>2</sup>))
