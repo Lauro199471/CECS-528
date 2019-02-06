@@ -76,6 +76,8 @@ g(n) &#8805; c<sub>1</sub>(f(n))<br>
 <br>
 Letting c<sub>2</sub> = (1/c<sub>1</sub>) we can rewrite this inequality as <br><br>
 f(n) &#8804; c<sub>2</sub>(g(n)) , where c<sub>2</sub> = 1/c<sub>1</sub><br>
-=> f(n) &#8804; (1/c<sub>1</sub>)g(n)<br>
+=> f(n) &#8804; (1/c<sub>1</sub>)g(n) , which is the definition of f(n) = O(g(n)).
+
+<br>
 
 </p>
