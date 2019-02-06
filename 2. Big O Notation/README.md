@@ -91,12 +91,12 @@ f(n) &#8804; c<sub>2</sub>(g(n)) , where c<sub>2</sub> = 1/c<sub>1</sub><br>
 <p align="center">
 f(n) + g(n) = O(max(f(n),g(n)))
 </p>
-Here the constant C = 1, because chosing either the max is less then the max + some other number
-<p align="center">
+Here the constant C = 1, because chosing either the max is less then the max + some other number<br>
 Ex:<br>
+<p align="center">
 f(n) = 9 || g(n) = 4 <br>
-f(n) + g(n) = O(max(f(n),g(n)))
-f(n) + g(n) &#8805; c(max(f(n),g(n))) , where c = 1
-9 + 4 &#8805; max(9,4)
-13 &#8805; 9
+f(n) + g(n) = O(max(f(n),g(n))) <br>
+f(n) + g(n) &#8805; c(max(f(n),g(n))) , where c = 1 <br>
+9 + 4 &#8805; max(9,4) <br>
+13 &#8805; 9 <br>
 </p>
