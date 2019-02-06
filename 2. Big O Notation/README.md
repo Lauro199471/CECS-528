@@ -100,3 +100,7 @@ f(n) + g(n) &#8805; c(max(f(n),g(n))) , where c = 1 <br>
 9 + 4 &#8805; max(9,4) <br>
 13 &#8805; 9 <br>
 </p>
+
+<p align="center">
+f(n) + g(n) = Ω(max(f(n),g(n)))
+</p>
