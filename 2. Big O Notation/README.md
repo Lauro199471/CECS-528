@@ -119,7 +119,7 @@ f(n) + g(n) &#8804; 2(max(f(n),g(n))) , where c = 1 <br>
   <img src="https://user-images.githubusercontent.com/13907836/52325751-10cc3980-299b-11e9-827e-645d5265d300.png">
   <img src="https://user-images.githubusercontent.com/13907836/52325762-1de92880-299b-11e9-8fcd-e6cdff039274.png">
   <img src="https://user-images.githubusercontent.com/13907836/52325771-27729080-299b-11e9-9eb6-1da682ae90ae.png">
-  <img src="https://user-images.githubusercontent.com/13907836/52325791-36594300-299b-11e9-89de-268b91f0f361.png">
+  <img src="https://user-images.githubusercontent.com/13907836/52325856-74eefd80-299b-11e9-8010-bfc2bb5f085b.png">
   <img src="https://user-images.githubusercontent.com/13907836/52325798-3c4f2400-299b-11e9-8c22-8033716beb06.png">
   <img src="https://user-images.githubusercontent.com/13907836/52325808-453ff580-299b-11e9-8e7b-e3c52a50b09e.png">
 </p>
