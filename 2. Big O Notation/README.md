@@ -104,7 +104,7 @@ f(n) + g(n) &#8805; c(max(f(n),g(n))) , where c = 1 <br>
 <p align="center">
 f(n) + g(n) = Ω(max(f(n),g(n)))
 </p>
-Here the constant <b>C = 2<b>, because chosing either the max and multiplying it twice(max * 2 or max + max) is more then the max + some other number that is not the max<br>
+Here the constant <b>C = 2</b>, because chosing either the max and multiplying it twice(max * 2 or max + max) is more then the max + some other number that is not the max<br>
 Ex:<br>
 <p align="center">
 f(n) = 9 || g(n) = 4 <br>
