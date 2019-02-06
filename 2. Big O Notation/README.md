@@ -68,3 +68,12 @@ Now we must find an initial n (n<sub>0</sub>) to make this statement true. In th
 </p>
 
 <br>
+
+### 3. Prove that f(n) = O(g(n)) if and only if g(n) = Ω(f(n)).<br>
+<p align="center">
+g(n) &#8805; c<sup>1</sub>(f(n))<br>
+=> (1/c<sup>1</sub>)g(n) &#8805; f(n)<br>
+<br>
+Letting c<sup>2</sub> = (1/c) we can rewrite this inequality as <br>
+f(n) &#8804; c<sup>2</sub>(g(n)) , where c<sup>2</sub> = 1/c<sup>1</sub>
+</p>
