@@ -82,6 +82,6 @@ f(n) &#8804; c<sub>2</sub>(g(n)) , where c<sub>2</sub> = 1/c<sub>1</sub><br>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/13907836/52322194-04d97b00-298d-11e9-940e-2d62b87acbe3.png">
   <img src="https://user-images.githubusercontent.com/13907836/52322221-220e4980-298d-11e9-8a89-bf56c734e6bd.png">
-  <img src="">
-  <img src="">
+  <img src="https://user-images.githubusercontent.com/13907836/52322276-54b84200-298d-11e9-823b-26a9981a6053.png">
+  <img src="https://user-images.githubusercontent.com/13907836/52322283-5f72d700-298d-11e9-814a-c6727f2b03ba.png">
 </p>
