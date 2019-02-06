@@ -86,3 +86,17 @@ f(n) &#8804; c<sub>2</sub>(g(n)) , where c<sub>2</sub> = 1/c<sub>1</sub><br>
   <img src="https://user-images.githubusercontent.com/13907836/52322283-5f72d700-298d-11e9-814a-c6727f2b03ba.png">
   <img src="https://user-images.githubusercontent.com/13907836/52322775-35baaf80-298f-11e9-9ad8-20d598838ebf.png">
 </p>
+
+### 4. Use the definition of big-Θ to prove that f(n) + g(n) = Θ(max(f(n), g(n)))<br>
+<p align="center">
+f(n) + g(n) = O(max(f(n),g(n)))
+</p>
+Here the constant C = 1, because chosing either the max is less then the max + some other number
+<p align="center">
+Ex:<br>
+f(n) = 9 || g(n) = 4 <br>
+f(n) + g(n) = O(max(f(n),g(n)))
+f(n) + g(n) &#8805; c(max(f(n),g(n))) , where c = 1
+9 + 4 &#8805; max(9,4)
+13 &#8805; 9
+</p>
