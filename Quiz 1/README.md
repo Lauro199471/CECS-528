@@ -1,5 +1,6 @@
 # CECS 528 Quiz 1, Spring 2019
 <br>
+
 ### C. Suppose <i>f(n) = o(g(n))</i>. Circle each of the following that must also be true.<br> 
 a. f(n) = ω(g(n))<br>
 b. g(n) = ω(f(n))<br>
