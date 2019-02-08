@@ -13,7 +13,8 @@ h. g(n) = Θ(f(n))<br><br>
 What we know:<br>
 The definiation of little o state: 
 <p align="center">
-lim<sub>n->∞</sub> = <i>f(n)</i> / <i>g(n)</i> = 0
+lim<sub>n->∞</sub> = <i>f(n)</i> / <i>g(n)</i> = 0, so <i>g(n)</i> must be way bigger then f(n)<br>or<br>
+
 </p>
 
 
