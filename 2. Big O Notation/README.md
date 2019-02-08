@@ -65,7 +65,7 @@ Now we must find an initial n (n<sub>0</sub>) to make this statement true. In th
   <img src="https://user-images.githubusercontent.com/13907836/52298656-50ae0500-2938-11e9-9b77-c1d3fb663b4e.png">
   <img src="https://user-images.githubusercontent.com/13907836/52298712-7e934980-2938-11e9-8a71-4692dbd38e3f.png">
   <img src="https://user-images.githubusercontent.com/13907836/52298790-a8e50700-2938-11e9-8d9d-14f214dda186.png">
-  <img src="https://user-images.githubusercontent.com/13907836/52298941-1729c980-2939-11e9-9ffc-bd579185ec97.png">
+  <img src="https://user-images.githubusercontent.com/13907836/52495077-847d6a80-2b84-11e9-997c-e68f1da1f21b.png">
 </p>
 
 <br>
