@@ -17,7 +17,7 @@ lim<sub>n->∞</sub> = <i>f(n)</i> / <i>g(n)</i> = 0, so <i>g(n)</i> must be way
 lim<sub>n->∞</sub> = <i>g(n)</i> / <i>f(n)</i> = ∞, so <i>f(n)</i> must be way smaller then g(n)<br>
 </p>
 Knowing that means we can start circling which statements are true.<br>
-<strike>a. f(n) = ω(g(n))</strike>
+<strike>a. f(n) = ω(g(n))</strike>, because lim<sub>n->∞</sub> = <i>f(n)</i> / <i>g(n)</i> is going towards 0 not ∞
 
 
 
