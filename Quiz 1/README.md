@@ -11,8 +11,10 @@ f. g(n) = Ω(f(n))<br>
 g. f(n) = Θ(g(n))<br>
 h. g(n) = Θ(f(n))<br><br>
 What we know:<br>
-
-
+The definiation of little o state: 
+<p align="center">
+lim<sub>n->∞</sub> = <i>f(n)</i> / <i>g(n)</i> = 0
+</p>
 
 
 
