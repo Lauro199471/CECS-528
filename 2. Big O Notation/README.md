@@ -32,7 +32,7 @@ Now we must find an initial n (n<sub>0</sub>) to make this statement true. In th
   <img src="https://user-images.githubusercontent.com/13907836/52300498-d6cc4a80-293c-11e9-99b5-1d48405c5e54.png">
   <img src="https://user-images.githubusercontent.com/13907836/52300523-e481d000-293c-11e9-8210-6a8cf4c2fbec.png">
   <img src="https://user-images.githubusercontent.com/13907836/52300538-f499af80-293c-11e9-9750-26fabd0ee1d9.png">
-  <img src="https://user-images.githubusercontent.com/13907836/52300563-02e7cb80-293d-11e9-850a-4b39491c6ab9.png">
+  <img src="https://user-images.githubusercontent.com/13907836/52494930-20f33d00-2b84-11e9-8ae6-abc5f4970c7f.png">
 </p>
 
 ### 2. Provide the big-O relationship between  f(n) = nlogn and g(n) = (n + nlog(n<sup>2</sup>))
@@ -65,7 +65,7 @@ Now we must find an initial n (n<sub>0</sub>) to make this statement true. In th
   <img src="https://user-images.githubusercontent.com/13907836/52298656-50ae0500-2938-11e9-9b77-c1d3fb663b4e.png">
   <img src="https://user-images.githubusercontent.com/13907836/52298712-7e934980-2938-11e9-8a71-4692dbd38e3f.png">
   <img src="https://user-images.githubusercontent.com/13907836/52298790-a8e50700-2938-11e9-8d9d-14f214dda186.png">
-  <img src="https://user-images.githubusercontent.com/13907836/52494930-20f33d00-2b84-11e9-8ae6-abc5f4970c7f.png">
+  <img src="https://user-images.githubusercontent.com/13907836/52298941-1729c980-2939-11e9-9ffc-bd579185ec97.png">
 </p>
 
 <br>
