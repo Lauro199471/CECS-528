@@ -10,21 +10,22 @@ nlog(n) &#8805; C((n + nlog(n<sup>2</sup>))) ; where C &#62; 0 , n &#8805; n<sub
 
 <b>Step 2</b>: Simplify the equation<br>
 <p align="center">
-nlog(n) &#8805; C((n + 2nlog(n))) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
+Since n + 2nlog(n) <= nlog(n) + 2nlog(n) , so n + 2nlog(n) can be approximated to 3nlog(n)<br>
+nlog(n) &#8805; C(3nlog(n)) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
 </p>
 
-<b>Step 3</b>: Choose a <i>C</i>, in this case I am choosing 1 because its easier to work with<br>
+<b>Step 3</b>: Find a <i>C</i><br>
 <p align="center">
-nlog(n) &#8805; 1((n + 2nlog(n))) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
-0 &#8804; n + nlog(n) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br>
-Now we must find an initial n (n<sub>0</sub>) to make this statement true. In this cause 1/2 is a good number because log<sub>2</sub>(1/2) = -1<br><br>
+nlog(n) &#8805; C(3nlog(n)) ; where C = ? , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
+1/3 &#8805; C ; where C &#8804; 1/3 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br>
+Now we must find an initial n (n<sub>0</sub>) to make this statement true. In this cause 2 is a good number because log<sub>2</sub>(2) = 1<br><br>
 </p>
 
-<b>Step 4</b>: Choose a <i>n<sub>0</sub></i>, in this case I am choosing 1/2 because of eariler statement<br>
+<b>Step 4</b>: Choose a <i>n<sub>0</sub></i>, in this case I am choosing 2 because of eariler statement<br>
 <p align="center">
-0 &#8805; (1/2) + (1/2)log(1/2) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1/2<br><br>
-0 &#8805; 1/2 - 1/2 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1/2<br><br>
-0 &#8805; 0 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1/2<br>That statement is true because we have proven we f(n) = &#937;(g(n))<br><br>
+(2)log(2) &#8805; (1/3) + (2)log(2) ; where C = 1/3 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 2<br><br>
+2 &#8805; 1/3 + 2 ; where C = 1/3 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 2<br><br>
+2 &#8805; 2(1/3) ; where C = 1/3 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 2<br>That statement is true because we have proven we f(n) = &#937;(g(n))<br><br>
 
 <b>Visual</b>
 <p align="center">
