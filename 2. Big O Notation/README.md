@@ -10,28 +10,29 @@ nlog(n) &#8805; C((n + nlog(n<sup>2</sup>))) ; where C &#62; 0 , n &#8805; n<sub
 
 <b>Step 2</b>: Simplify the equation<br>
 <p align="center">
-nlog(n) &#8805; C((n + 2nlog(n))) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
+Since n + 2nlog(n) <= nlog(n) + 2nlog(n) , so n + 2nlog(n) can be approximated to 3nlog(n)<br>
+nlog(n) &#8805; C(3nlog(n)) ; where C &#62; 0 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
 </p>
 
-<b>Step 3</b>: Choose a <i>C</i>, in this case I am choosing 1 because its easier to work with<br>
+<b>Step 3</b>: Find a <i>C</i><br>
 <p align="center">
-nlog(n) &#8805; 1((n + 2nlog(n))) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
-0 &#8804; n + nlog(n) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br>
-Now we must find an initial n (n<sub>0</sub>) to make this statement true. In this cause 1/2 is a good number because log<sub>2</sub>(1/2) = -1<br><br>
+nlog(n) &#8805; C(3nlog(n)) ; where C = ? , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br><br>
+1/3 &#8805; C ; where C &#8804; 1/3 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 0<br>
+Now we must find an initial n (n<sub>0</sub>) to make this statement true. In this cause 2 is a good number because log<sub>2</sub>(2) = 1<br><br>
 </p>
 
-<b>Step 4</b>: Choose a <i>n<sub>0</sub></i>, in this case I am choosing 1/2 because of eariler statement<br>
+<b>Step 4</b>: Choose a <i>n<sub>0</sub></i>, in this case I am choosing 2 because of eariler statement<br>
 <p align="center">
-0 &#8805; (1/2) + (1/2)log(1/2) ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1/2<br><br>
-0 &#8805; 1/2 - 1/2 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1/2<br><br>
-0 &#8805; 0 ; where C = 1 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 1/2<br>That statement is true because we have proven we f(n) = &#937;(g(n))<br><br>
+(2)log(2) &#8805; (1/3) + (2)log(2) ; where C = 1/3 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 2<br><br>
+2 &#8805; 1/3 + 2 ; where C = 1/3 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 2<br><br>
+2 &#8805; 2(1/3) ; where C = 1/3 , n &#8805; n<sub>0</sub> , and n<sub>0</sub> &#8805; 2<br>That statement is true because we have proven we f(n) = &#937;(g(n))<br><br>
 
 <b>Visual</b>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/13907836/52300498-d6cc4a80-293c-11e9-99b5-1d48405c5e54.png">
   <img src="https://user-images.githubusercontent.com/13907836/52300523-e481d000-293c-11e9-8210-6a8cf4c2fbec.png">
   <img src="https://user-images.githubusercontent.com/13907836/52300538-f499af80-293c-11e9-9750-26fabd0ee1d9.png">
-  <img src="https://user-images.githubusercontent.com/13907836/52300563-02e7cb80-293d-11e9-850a-4b39491c6ab9.png">
+  <img src="https://user-images.githubusercontent.com/13907836/52494930-20f33d00-2b84-11e9-8ae6-abc5f4970c7f.png">
 </p>
 
 ### 2. Provide the big-O relationship between  f(n) = nlogn and g(n) = (n + nlog(n<sup>2</sup>))
@@ -64,7 +65,7 @@ Now we must find an initial n (n<sub>0</sub>) to make this statement true. In th
   <img src="https://user-images.githubusercontent.com/13907836/52298656-50ae0500-2938-11e9-9b77-c1d3fb663b4e.png">
   <img src="https://user-images.githubusercontent.com/13907836/52298712-7e934980-2938-11e9-8a71-4692dbd38e3f.png">
   <img src="https://user-images.githubusercontent.com/13907836/52298790-a8e50700-2938-11e9-8d9d-14f214dda186.png">
-  <img src="https://user-images.githubusercontent.com/13907836/52298941-1729c980-2939-11e9-9ffc-bd579185ec97.png">
+  <img src="https://user-images.githubusercontent.com/13907836/52495077-847d6a80-2b84-11e9-997c-e68f1da1f21b.png">
 </p>
 
 <br>
