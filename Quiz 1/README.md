@@ -25,3 +25,13 @@ e. <strike>f(n) = Ω(g(n))</strike>, because <i>f(n)</i> &#8805; C(<i>g(n)</i>) 
 f. g(n) = Ω(f(n)), because <i>g(n)</i> &#8805; C(<i>f(n)</i>) , <i>g(n)</i> is bigger<br>
 g. <strike>f(n) = Θ(g(n))</strike>
 h. <strike>g(n) = Θ(f(n))</strike>
+
+### B. Use the definitions of big-O, big-Ω, big-Θ to prove that logn = Θ(ln(n)).<br>
+ln(x) = log<sub>e</sub>x<br>
+Change of base rule:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/13907836/52514812-f75d0480-2bc9-11e9-9032-21c10befa7c5.png">
+</p><br>
+<b>Big O</b><br>
+log(n) &#8804; C(ln(n)) , where C > 0, n<sub>0</sub> &#8805; 0 and n &#8805; n<sub>0</sub><br>
+
