@@ -17,8 +17,9 @@ lim<sub>n->∞</sub> = <i>f(n)</i> / <i>g(n)</i> = 0, so <i>g(n)</i> must be way
 lim<sub>n->∞</sub> = <i>g(n)</i> / <i>f(n)</i> = ∞, so <i>f(n)</i> must be way smaller then g(n)<br>
 </p>
 Knowing that means we can start circling which statements are true.<br>
-<strike>a. f(n) = ω(g(n))</strike>, because lim<sub>n->∞</sub> = <i>f(n)</i> / <i>g(n)</i> is going towards 0 not ∞<brl>
+<strike>a. f(n) = ω(g(n))</strike>, because lim<sub>n->∞</sub> = <i>f(n)</i> / <i>g(n)</i> is going towards 0 not ∞<br>
 b. g(n) = ω(f(n)), because lim<sub>n->∞</sub> = <i>g(n)</i> / <i>f(n)</i> is going towards ∞  means this statement is true<br>
 c. f(n) = O(g(n)), because <i>f(n)</i> &#8804; C(<i>g(n)</i>)<br>
 d. <strike>g(n) = O(f(n))</strike>, because <i>f(n)</i> is big O of g(n)<br>
-e. <strike>f(n) = Ω(g(n))</strike>, because <i>f(n)</i> &#8804; C(<i>g(n)</i>) , <i>f(n)</i> is not bigger<br>
+e. <strike>f(n) = Ω(g(n))</strike>, because <i>f(n)</i> &#8805; C(<i>g(n)</i>) , <i>f(n)</i> is not bigger<br>
+f. g(n) = Ω(f(n)), because <i>g(n)</i> &#8805; C(<i>f(n)</i>) , <i>g(n)</i> is bigger<br>
