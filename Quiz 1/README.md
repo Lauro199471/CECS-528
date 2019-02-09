@@ -23,3 +23,5 @@ c. f(n) = O(g(n)), because <i>f(n)</i> &#8804; C(<i>g(n)</i>)<br>
 d. <strike>g(n) = O(f(n))</strike>, because <i>f(n)</i> is big O of g(n)<br>
 e. <strike>f(n) = Ω(g(n))</strike>, because <i>f(n)</i> &#8805; C(<i>g(n)</i>) , <i>f(n)</i> is not bigger<br>
 f. g(n) = Ω(f(n)), because <i>g(n)</i> &#8805; C(<i>f(n)</i>) , <i>g(n)</i> is bigger<br>
+g. <strike>f(n) = Θ(g(n))</strike>
+h. <strike>g(n) = Θ(f(n))</strike>
