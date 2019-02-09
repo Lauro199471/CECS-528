@@ -32,7 +32,7 @@ Change of base rule:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/13907836/52514823-19ef1d80-2bca-11e9-81b9-020ccddb8434.png">
 </p><br>
-<b><u>Big O</u></b><br>
+<b><u> Big O </u></b><br>
 log(n) &#8804; c(ln(n)) , where c > 0, n<sub>0</sub> &#8805; 0 and n &#8805; n<sub>0</sub><br>
 log(n) &#8804; c(log(n)/log(e)) , where c > 0, n<sub>0</sub> &#8805; 0 and n &#8805; n<sub>0</sub><br><br>
 lets make c = log(e)<br><br>
