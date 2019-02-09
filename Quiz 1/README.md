@@ -30,7 +30,7 @@ h. <strike>g(n) = Θ(f(n))</strike>
 ln(x) = log<sub>e</sub>x<br>
 Change of base rule:
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/13907836/52514812-f75d0480-2bc9-11e9-9032-21c10befa7c5.png">
+  <img src="https://user-images.githubusercontent.com/13907836/52514823-19ef1d80-2bca-11e9-81b9-020ccddb8434.png">
 </p><br>
 <b>Big O</b><br>
 log(n) &#8804; C(ln(n)) , where C > 0, n<sub>0</sub> &#8805; 0 and n &#8805; n<sub>0</sub><br>
