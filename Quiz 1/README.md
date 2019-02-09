@@ -33,5 +33,8 @@ Change of base rule:
   <img src="https://user-images.githubusercontent.com/13907836/52514823-19ef1d80-2bca-11e9-81b9-020ccddb8434.png">
 </p><br>
 <b>Big O</b><br>
-log(n) &#8804; C(ln(n)) , where C > 0, n<sub>0</sub> &#8805; 0 and n &#8805; n<sub>0</sub><br>
-
+log(n) &#8804; c(ln(n)) , where c > 0, n<sub>0</sub> &#8805; 0 and n &#8805; n<sub>0</sub><br>
+log(n) &#8804; c(log(n)/log(e)) , where c > 0, n<sub>0</sub> &#8805; 0 and n &#8805; n<sub>0</sub><br><br>
+lets make c = log(e)<br><br>
+log(n) &#8804; log(e)(log(n)/log(e)) , where c > log(e), n<sub>0</sub> &#8805; 0 and n &#8805; n<sub>0</sub><br>
+log(n) &#8804; (log(n) , where c > log(e), n<sub>0</sub> &#8805; 0 and n &#8805; n<sub>0</sub><br>
