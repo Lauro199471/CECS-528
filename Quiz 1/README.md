@@ -37,4 +37,6 @@ log(n) &#8804; c(ln(n)) , where c > 0, n<sub>0</sub> &#8805; 0 and n &#8805; n<s
 log(n) &#8804; c(log(n)/log(e)) , where c > 0, n<sub>0</sub> &#8805; 0 and n &#8805; n<sub>0</sub><br><br>
 lets make c = log(e)<br><br>
 log(n) &#8804; log(e)(log(n)/log(e)) , where c > log(e), n<sub>0</sub> &#8805; 0 and n &#8805; n<sub>0</sub><br>
-log(n) &#8804; (log(n) , where c > log(e), n<sub>0</sub> &#8805; 0 and n &#8805; n<sub>0</sub><br>
+log(n) &#8804; log(n) , where c > log(e), n<sub>0</sub> &#8805; 0 and n &#8805; n<sub>0</sub><br><br>
+lets make n<sub>0</sub> = 1<br><br>
+log(2) &#8804; log(2) , where c > log(e), n<sub>0</sub> &#8805; 2 and n &#8805; n<sub>0</sub> &#8756; &#9989;<br>
